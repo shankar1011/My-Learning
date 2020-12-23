@@ -32,10 +32,10 @@ return (
     </React.Fragment>
 );
 
-                    Class Component                     Functional Component
+                            Class Component                     Functional Component
 
-Initialisation      state={activeIndex: 0}              useState(0)
+    Initialisation-->       state={activeIndex: 0}              useState(0)
 
-Reference           this.state.activeIndex              activeIndex
+    Reference-->            this.state.activeIndex              activeIndex
 
-Updates             this.setState({activeIndex: 10})    setActiveIndex(10)
+    Updates-->              this.setState({activeIndex: 10})    setActiveIndex(10)
