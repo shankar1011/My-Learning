@@ -31,3 +31,11 @@ return (
       <ChildC />
     </React.Fragment>
 );
+
+                    Class Component                     Functional Component
+
+Initialisation      state={activeIndex: 0}              useState(0)
+
+Reference           this.state.activeIndex              activeIndex
+
+Updates             this.setState({activeIndex: 10})    setActiveIndex(10)
