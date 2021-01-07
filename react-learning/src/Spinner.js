@@ -1,15 +1,15 @@
-import React from 'react-dom';
+import React from "react-dom";
 
 const Spinner = (props) => {
-    return (
-        <div class="ui active dimmer">
-            <div class="ui text loader">{props.message}</div>
-        </div>
-    );
+  return (
+    <div className='ui active dimmer'>
+      <div className='ui text loader'>{props.message}</div>
+    </div>
+  );
 };
 
 Spinner.defaultProps = {
-    message: "Loading..."
-}
+  message: "Loading...",
+};
 
 export default Spinner;
